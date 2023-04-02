@@ -1,7 +1,7 @@
 # deploy-preview.yml
 on:
   pull_request:
-    types: [opened, closed]
+    types: [opened, edited, closed]
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
